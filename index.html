@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sneaky - Impostor · Legal</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #F3E7DA;
+      color: #2D2D2D;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #DA919F, #9281C0);
+      color: white;
+      text-align: center;
+      padding: 48px 24px 40px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.85;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      padding: 24px 16px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      background: white;
+      color: #9281C0;
+      border: 2px solid #9281C0;
+      border-radius: 24px;
+      padding: 10px 24px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    nav a:hover, nav a.active {
+      background: #9281C0;
+      color: white;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    section {
+      display: none;
+    }
+
+    section.visible {
+      display: block;
+    }
+
+    .section-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #9281C0;
+      margin: 32px 0 24px;
+      padding-bottom: 12px;
+      border-bottom: 3px solid #DA919F;
+    }
+
+    .updated {
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 32px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 12px rgba(146, 129, 192, 0.1);
+    }
+
+    .card h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #9281C0;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #444;
+      white-space: pre-line;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 16px;
+      font-size: 0.85rem;
+      color: #999;
+      border-top: 1px solid #e0d4c8;
+    }
+
+    footer a {
+      color: #9281C0;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🕵️ Sneaky - Impostor</h1>
+  <p>Legal Information</p>
+</header>
+
+<nav>
+  <a href="#" class="active" onclick="show('privacy', this)">Privacy Policy</a>
+  <a href="#" onclick="show('terms', this)">Terms of Use</a>
+</nav>
+
+<main>
+
+  <!-- PRIVACY POLICY -->
+  <section id="privacy" class="visible">
+    <h2 class="section-title">Privacy Policy</h2>
+    <p class="updated">Last updated: June 2026</p>
+
+    <div class="card">
+      <h3>1. Data Collected</h3>
+      <p>• Device ID: an anonymous identifier generated locally to manage your premium access. It does not allow personal identification.
+• Purchase data: managed exclusively by Apple (App Store) or Google (Play Store). We do not store any payment information.
+• Advertising data: if you use the free version, Google AdMob may collect anonymous data to display relevant ads, in accordance with Google's privacy policy.</p>
+    </div>
+
+    <div class="card">
+      <h3>2. Data Not Collected</h3>
+      <p>We do not collect:
+• Your name
+• Your email address
+• Your location
+• Your contacts
+• Any data that could personally identify you</p>
+    </div>
+
+    <div class="card">
+      <h3>3. Use of Data</h3>
+      <p>The Device ID is used solely to:
+• Verify your premium status
+• Restore your purchases on the same device</p>
+    </div>
+
+    <div class="card">
+      <h3>4. Data Sharing</h3>
+      <p>We do not sell or share your data with third parties, except for:
+• Apple / Google: for purchase management
+• RevenueCat: for subscription management (policy: revenuecat.com/privacy)
+• Google AdMob: for ads (free version)</p>
+    </div>
+
+    <div class="card">
+      <h3>5. Retention</h3>
+      <p>Data is stored locally on your device. Uninstalling the app removes all local data.</p>
+    </div>
+
+    <div class="card">
+      <h3>6. Your Rights (GDPR)</h3>
+      <p>Under GDPR, you have the right to:
+• Access your data
+• Request its deletion
+• Object to its processing
+
+To exercise these rights: sneaky.impostor.help@gmail.com</p>
+    </div>
+
+    <div class="card">
+      <h3>7. Children</h3>
+      <p>This app is suitable for all ages. We do not knowingly collect any data from children under the age of 13.</p>
+    </div>
+
+    <div class="card">
+      <h3>8. Contact</h3>
+      <p>sneaky.impostor.help@gmail.com</p>
+    </div>
+  </section>
+
+  <!-- TERMS OF USE -->
+  <section id="terms">
+    <h2 class="section-title">Terms of Use</h2>
+    <p class="updated">Last updated: June 2026</p>
+
+    <div class="card">
+      <h3>1. Acceptance</h3>
+      <p>By downloading or using Sneaky - Impostor, you agree to these terms. If you do not agree, please do not use the application.</p>
+    </div>
+
+    <div class="card">
+      <h3>2. Service Description</h3>
+      <p>Sneaky - Impostor is a mobile social deduction party game. The app is available in a free version (with ads) and a premium version (ad-free, with access to all categories).</p>
+    </div>
+
+    <div class="card">
+      <h3>3. In-App Purchases</h3>
+      <p>• Monthly subscription: €2.99/month with a 7-day free trial
+• Lifetime access: €9.99 (one-time payment)
+
+The free trial automatically converts to a paid subscription unless cancelled before the trial period ends. Cancellation is managed through your App Store or Google Play account settings.</p>
+    </div>
+
+    <div class="card">
+      <h3>4. Content</h3>
+      <p>All content in the app (words, categories, design) is the exclusive property of the developer. Reproduction without authorization is strictly prohibited.</p>
+    </div>
+
+    <div class="card">
+      <h3>5. Conduct</h3>
+      <p>This app is intended for recreational use among consenting players. The developer is not responsible for any disputes arising during gameplay.</p>
+    </div>
+
+    <div class="card">
+      <h3>6. Changes</h3>
+      <p>These terms may be updated at any time. Continued use of the app constitutes acceptance of the updated terms.</p>
+    </div>
+
+    <div class="card">
+      <h3>7. Contact</h3>
+      <p>For any questions: sneaky.impostor.help@gmail.com</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Yunes Errachid · <a href="mailto:sneaky.impostor.help@gmail.com">sneaky.impostor.help@gmail.com</a></p>
+</footer>
+
+<script>
+  function show(id, el) {
+    document.querySelectorAll('section').forEach(s => s.classList.remove('visible'));
+    document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+    document.getElementById(id).classList.add('visible');
+    el.classList.add('active');
+    return false;
+  }
+</script>
+
+</body>
+</html>
